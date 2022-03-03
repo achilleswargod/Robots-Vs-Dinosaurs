@@ -10,4 +10,6 @@ class Herd:
         self.dinosaurs = []
 
     def create_herd(self):
-        pass
+        self.dinosaurs.append(blue)
+        self.dinosaurs.append(rex)
+        self.dinosaurs.append(godzilla)
