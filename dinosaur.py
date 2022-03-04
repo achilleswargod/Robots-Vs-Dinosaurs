@@ -1,4 +1,5 @@
 from inspect import _void
+from unicodedata import name
 
 
 class Dinosaur:
@@ -8,4 +9,5 @@ class Dinosaur:
         self.health = 100
 
     def attack(self, robot):
-        pass
+        self.robot -= 10
+        print(f"{self.name} has attacked {})
