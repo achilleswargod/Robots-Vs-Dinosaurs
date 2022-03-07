@@ -9,9 +9,10 @@ class Fleet:
 
     def create_fleet(self):
         t800 = Robot('T-800')
-        t850 = Robot('T-850')
-        t1000 = Robot('T-1000')
-
         self.robots.append(t800)
+
+        t850 = Robot('T-850')
         self.robots.append(t850)
+
+        t1000 = Robot('T-1000')
         self.robots.append(t1000)
